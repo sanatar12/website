@@ -105,3 +105,41 @@ nav a:hover {
 .cv-button:hover {
     background: #0f2946;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .content,
+    .page-header {
+        padding: 25px;
+    }
+
+    .hero {
+        height: 220px;
+    }
+
+    .hero img {
+        width: 140px;
+        height: 140px;
+    }
+}
