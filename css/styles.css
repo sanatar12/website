@@ -131,7 +131,13 @@ nav a:hover {
     background: #0f2946;
 }
 
+.research-intro {
+    margin-bottom: 0;
+}
 
+.research-list {
+    margin-top: 0;
+}
 
 
 
