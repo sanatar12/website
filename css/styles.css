@@ -31,19 +31,28 @@ h1, h2, h3 {
 }
 
 header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 24px 32px;
-    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+
+    background: transparent;
+    border-bottom: none;
 }
 
 .logo {
-    text-decoration: none;
-    color: var(--primary);
+    color: white;
     font-size: 1.4rem;
     font-weight: 600;
 }
+
 
 nav {
     display: flex;
@@ -51,8 +60,8 @@ nav {
 }
 
 nav a {
+    color: white;
     text-decoration: none;
-    color: var(--primary);
     font-size: 0.9rem;
     font-weight: 500;
 }
