@@ -120,10 +120,11 @@ nav a:hover {
 .content a {
     color: var(--primary);
     text-decoration: none;
+    font-weight: 400;
 }
 
 .content a:hover {
-    text-decoration: bold;
+    font-weight: 600;
 }
 
 .cv-button {
