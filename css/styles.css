@@ -117,6 +117,15 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
 .cv-button {
     display: inline-block;
     margin-top: 20px;
